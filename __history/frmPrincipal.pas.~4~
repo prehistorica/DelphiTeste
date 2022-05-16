@@ -1,0 +1,48 @@
+unit frmPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ComCtrls, Vcl.ExtCtrls, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    Timer1: TTimer;
+    StatusBar1: TStatusBar;
+    btnProxima: TButton;
+    procedure Timer1Timer(Sender: TObject);
+    procedure btnProximaClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+   uses UPagina2;
+
+procedure TForm1.btnProximaClick(Sender: TObject);
+begin
+
+   try
+     application.CreateForm(TfrmPaginaDois, frmPaginaDois) ;
+     frmPaginaDois.Show;
+   finally
+
+   end;
+
+end;
+
+procedure TForm1.Timer1Timer(Sender: TObject);
+begin
+  StatusBar1.Panels[1].Text := 'Data: ' + datetostr(date);
+  StatusBar1.Panels[2].Text := 'Hora: ' + timetostr(time);
+end;
+
+end.

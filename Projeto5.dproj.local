@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/05/14 15:19:30.000.425,=C:\Users\chris\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/14 15:20:12.000.450,C:\Users\chris\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=D:\DELPHI\Programas\Projeto Cinco\frmPrincipal.dfm</Transaction>
+    <Transaction>2022/05/14 15:20:12.000.450,C:\Users\chris\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=D:\DELPHI\Programas\Projeto Cinco\frmPrincipal.pas</Transaction>
+    <Transaction>2022/05/14 15:20:20.000.214,C:\Users\chris\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=D:\DELPHI\Programas\Projeto Cinco\Projeto5.dproj</Transaction>
+    <Transaction>2022/05/14 15:26:23.000.906,=D:\DELPHI\Programas\Projeto Cinco\Unit2.pas</Transaction>
+    <Transaction>2022/05/14 15:31:23.000.559,D:\DELPHI\Programas\Projeto Cinco\Unit2.dfm=D:\DELPHI\Programas\Projeto Cinco\UPagina2.dfm</Transaction>
+    <Transaction>2022/05/14 15:31:23.000.559,D:\DELPHI\Programas\Projeto Cinco\Unit2.pas=D:\DELPHI\Programas\Projeto Cinco\UPagina2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

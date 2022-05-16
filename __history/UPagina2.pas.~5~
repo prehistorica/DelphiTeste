@@ -1,0 +1,37 @@
+unit UPagina2;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TfrmPaginaDois = class(TForm)
+    RadioButton1: TRadioButton;
+    rbCerta: TRadioButton;
+    btnResposta: TButton;
+    procedure btnRespostaClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+
+  frmPaginaDois: TfrmPaginaDois;
+
+
+implementation
+
+{$R *.dfm}
+
+
+procedure TfrmPaginaDois.btnRespostaClick(Sender: TObject);
+begin
+  if rbCerta.Checked = true then
+
+end;
+
+end.
